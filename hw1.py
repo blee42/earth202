@@ -20,6 +20,18 @@ def c1(a, pm, pc, rc):
 		'M': M,
 		'I/Ma^2': ratio}
 
+print("inputs (with units): ")
+print("a (km) - radius")
+print("pm (kg/m^3) - mantle density")
+print ("pc (kg/m^3) - core density")
+print ("rc (km) - core radius\n")
+
+print("outputs (with units): ")
+print("rc/a (unitless)")
+print("I (kgkm^2) - moment of inertia")
+print("M (kg) - mass")
+print("I/Ma^2 (unitless) - moment of inertia ratio\n")
+
 print("C-1.")
 b = c1(6371, 5514, 5514, 3485)
 print("b. pm = pc")
